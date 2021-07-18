@@ -25,9 +25,6 @@ function TodoItem({ todo }) {
               ...todo,
               name: name
             }))
-            if (editale) {
-              setName(todo.name);
-            }
             setEditable(!editale)
           }}
           className="col-1 btn btn-primary m-2">
